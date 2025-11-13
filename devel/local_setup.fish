@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/catkin_tools_prebuild/local_setup.fish

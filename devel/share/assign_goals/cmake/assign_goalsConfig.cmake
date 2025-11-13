@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/assign_goals/share/assign_goals/cmake/assign_goalsConfig.cmake

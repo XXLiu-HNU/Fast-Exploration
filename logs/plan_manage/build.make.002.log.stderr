@@ -1,0 +1,279 @@
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/kino_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::KinoReplanFSM::execFSMCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/kino_replan_fsm.cpp:108:10:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KREPLAN_NEW[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+  108 |   switch [01;35m[K([m[Kexec_state_) {
+      |          [01;35m[K^[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/kino_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::KinoReplanFSM::checkCollisionCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/kino_replan_fsm.cpp:214:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_goal[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  214 |       bool [01;35m[Knew_goal[m[K = false;
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/include/plan_manage/kino_replan_fsm.h:8[m[K,
+                 from [01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/kino_replan_fsm.cpp:2[m[K:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/kino_replan_fsm.cpp:[m[K In member function ‘[01m[Kbool fast_planner::KinoReplanFSM::callKinodynamicReplan()[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/kino_replan_fsm.cpp:293:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  293 |     ROS_WARN([01;35m[K"Replan number: %d, mean traj: %lf"[m[K, [32m[Kreplan_time_.size()[m[K, mean1);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                    [32m[K|[m[K
+      |                                                                    [32m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/kino_replan_fsm.cpp:293:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  293 |     ROS_WARN("Replan number: [01;36m[K%d[m[K, mean traj: %lf", replan_time_.size(), mean1);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kint[m[K
+      |                              [32m[K%ld[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kdouble calcPathLength(const std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/traj_server.cpp:52:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   52 |   for (int i = 0; [01;35m[Ki < path.size() - 1[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kvoid bsplineCallback(const BsplineConstPtr&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/traj_server.cpp:221:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  221 |   for (int i = 0; [01;35m[Ki < msg->knots.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/traj_server.cpp:224:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  224 |   for (int i = 0; [01;35m[Ki < msg->pos_pts.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/traj_server.cpp:233:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  233 |   for (int i = 0; [01;35m[Ki < msg->yaw_pts.size()[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/topo_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::TopoReplanFSM::checkCollisionCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/topo_replan_fsm.cpp:256:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_goal[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  256 |       bool [01;35m[Knew_goal[m[K = false;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/topo_replan_fsm.cpp:[m[K In member function ‘[01m[Kbool fast_planner::TopoReplanFSM::callSearchAndOptimization()[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/topo_replan_fsm.cpp:336:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  336 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kvoid test()[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/traj_server.cpp:355:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  355 |   for (int i = 0; [01;35m[Ki < samples.size()[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/local_explore_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::LocalExploreFSM::execFSMCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/local_explore_fsm.cpp:108:10:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KREPLAN_NEW[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+  108 |   switch [01;35m[K([m[Kexec_state_) {
+      |          [01;35m[K^[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/local_explore_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::LocalExploreFSM::checkCollisionCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/local_explore_fsm.cpp:210:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_goal[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  210 |       bool [01;35m[Knew_goal[m[K = false;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg.cpp:[m[K In function ‘[01m[Kvoid cmdCallback(const PositionCommandConstPtr&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg.cpp:139:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  139 |     for (int i = 0; [01;35m[Ki < cam1.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg.cpp:116:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcur_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  116 |   auto [01;35m[Kcur_time[m[K = ros::Time::now();
+      |        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg.cpp:[m[K In function ‘[01m[Kvoid cloudCallback(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg.cpp:192:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  192 |   for (int i = 0; [01;35m[Ki < pts2.points.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::kinodynamicReplan(const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, const double&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:136:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinit_pos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  136 |   Eigen::Vector3d [01;35m[Kinit_pos[m[K = start_pt;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:137:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinit_vel[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  137 |   Eigen::Vector3d [01;35m[Kinit_vel[m[K = start_vel;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:138:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinit_acc[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  138 |   Eigen::Vector3d [01;35m[Kinit_acc[m[K = start_acc;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::planGlobalTraj(const Vector3d&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:335:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  335 |   for (int i = 0; [01;35m[Ki < points.size() - 1[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::topoReplan(bool)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:447:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  447 |       for (int i = 0; [01;35m[Ki < select_paths.size()[m[K; ++i) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:453:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  453 |       for (int i = 0; [01;35m[Ki < select_paths.size()[m[K; ++i) optimize_threads[i].join();
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::refineTraj(fast_planner::NonUniformBspline&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:485:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  485 |   ros::Time [01;35m[Kt1[m[K = ros::Time::now();
+      |             [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::reparamBspline(fast_planner::NonUniformBspline&, double, Eigen::MatrixXd&, double&, double&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:530:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_num[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  530 |   int [01;35m[Kprev_num[m[K = bspline.getControlPoint().rows();
+      |       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::optimizeTopoBspline(double, double, std::vector<Eigen::Matrix<double, 3, 1> >, int)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:570:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  570 |     if ([01;35m[Kguide_pts.size() != int(ctrl_pts.rows()) - 6[m[K) ROS_WARN("Incorrect guide for 3 degree");
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:573:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  573 |     for (int i = 0; [01;35m[Ki < tmp_pts.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:574:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  574 |       if (i % 2 == 1 && i >= 5 && [01;35m[Ki <= tmp_pts.size() - 6[m[K) guide_pts.push_back(tmp_pts[i]);
+      |                                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:576:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  576 |     if ([01;35m[Kguide_pts.size() != int(ctrl_pts.rows()) - 8[m[K) ROS_WARN("Incorrect guide for 4 degree");
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:581:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktm1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  581 |   double [01;35m[Ktm1[m[K = (ros::Time::now() - t1).toSec();
+      |          [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:590:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktm2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  590 |   double [01;35m[Ktm2[m[K = (ros::Time::now() - t1).toSec();
+      |          [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:601:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktm3[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  601 |   double [01;35m[Ktm3[m[K = (ros::Time::now() - t1).toSec();
+      |          [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::planYaw(const Vector3d&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:766:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  766 |   for (int i = 0; [01;35m[Ki < waypts.size()[m[K; ++i) path_yaw.push_back(waypts[i][0]);
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::planYawExplore(const Vector3d&, const double&, bool, const double&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:843:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  843 |   auto [01;35m[Kt1[m[K = ros::Time::now();
+      |        [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::planYawActMap(const Vector3d&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:65:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   65 |   for (int i = 0; [01;35m[Ki < path.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:12:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt_traj[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   12 |   double [01;35m[Kt_traj[m[K = local_data_.duration_;
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:31:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kunmapped[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   31 |   bool [01;35m[Kunmapped[m[K = false;
+      |        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::test()[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:121:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  121 |   auto [01;35m[Kt1[m[K = ros::Time::now();
+      |        [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:125:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  125 |   int [01;35m[Kvid[m[K = 0;
+      |       [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::localExplore(Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:170:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  170 |     for (int i = 0; [01;35m[Ki < points.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:207:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  207 |     for (int i = 0; [01;35m[Ki < points.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:227:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  227 |     for (int i = 0; [01;35m[Ki < points.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:298:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  298 |   for (int i = 0; [01;35m[Ki < pts.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:260:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kctrl_pt_num[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  260 |   int [01;35m[Kctrl_pt_num[m[K = seg_num + 3;
+      |       [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg2.cpp:[m[K In function ‘[01m[Kvoid fovCallback(const MarkerConstPtr&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg2.cpp:143:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  143 |   for (int i = 0; [01;35m[Ki < cam1.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg2.cpp:[m[K In function ‘[01m[Kvoid planTrajCallback(const MarkerConstPtr&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg2.cpp:280:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  280 |   for (int i = 0; [01;35m[Ki < cam1.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg2.cpp:[m[K In function ‘[01m[Kvoid nbvpCallback(const MarkerConstPtr&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg2.cpp:311:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  311 |   int [01;35m[Ksize[m[K = mk.points.size();
+      |       [01;35m[K^~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/test/process_msg2.cpp:323:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpts[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  323 |   auto& [01;35m[Kpts[m[K = mk.points;
+      |         [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::kinodynamicReplan(const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, const double&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:136:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinit_pos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  136 |   Eigen::Vector3d [01;35m[Kinit_pos[m[K = start_pt;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:137:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinit_vel[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  137 |   Eigen::Vector3d [01;35m[Kinit_vel[m[K = start_vel;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:138:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinit_acc[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  138 |   Eigen::Vector3d [01;35m[Kinit_acc[m[K = start_acc;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::planGlobalTraj(const Vector3d&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:335:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  335 |   for (int i = 0; [01;35m[Ki < points.size() - 1[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::topoReplan(bool)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:447:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  447 |       for (int i = 0; [01;35m[Ki < select_paths.size()[m[K; ++i) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:453:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  453 |       for (int i = 0; [01;35m[Ki < select_paths.size()[m[K; ++i) optimize_threads[i].join();
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::refineTraj(fast_planner::NonUniformBspline&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:485:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  485 |   ros::Time [01;35m[Kt1[m[K = ros::Time::now();
+      |             [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::reparamBspline(fast_planner::NonUniformBspline&, double, Eigen::MatrixXd&, double&, double&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:530:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_num[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  530 |   int [01;35m[Kprev_num[m[K = bspline.getControlPoint().rows();
+      |       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::optimizeTopoBspline(double, double, std::vector<Eigen::Matrix<double, 3, 1> >, int)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:570:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  570 |     if ([01;35m[Kguide_pts.size() != int(ctrl_pts.rows()) - 6[m[K) ROS_WARN("Incorrect guide for 3 degree");
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:573:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  573 |     for (int i = 0; [01;35m[Ki < tmp_pts.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:574:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  574 |       if (i % 2 == 1 && i >= 5 && [01;35m[Ki <= tmp_pts.size() - 6[m[K) guide_pts.push_back(tmp_pts[i]);
+      |                                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:576:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  576 |     if ([01;35m[Kguide_pts.size() != int(ctrl_pts.rows()) - 8[m[K) ROS_WARN("Incorrect guide for 4 degree");
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:581:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktm1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  581 |   double [01;35m[Ktm1[m[K = (ros::Time::now() - t1).toSec();
+      |          [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:590:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktm2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  590 |   double [01;35m[Ktm2[m[K = (ros::Time::now() - t1).toSec();
+      |          [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:601:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktm3[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  601 |   double [01;35m[Ktm3[m[K = (ros::Time::now() - t1).toSec();
+      |          [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::planYaw(const Vector3d&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:766:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  766 |   for (int i = 0; [01;35m[Ki < waypts.size()[m[K; ++i) path_yaw.push_back(waypts[i][0]);
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::planYawExplore(const Vector3d&, const double&, bool, const double&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:843:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  843 |   auto [01;35m[Kt1[m[K = ros::Time::now();
+      |        [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::findCollisionRange(std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:675:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kt_e[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  675 |   sn = ceil([01;35m[K(t_mp - t_e)[m[K / dt);
+      |             [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::planYawActMap(const Vector3d&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:65:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   65 |   for (int i = 0; [01;35m[Ki < path.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:12:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt_traj[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   12 |   double [01;35m[Kt_traj[m[K = local_data_.duration_;
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:31:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kunmapped[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   31 |   bool [01;35m[Kunmapped[m[K = false;
+      |        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::test()[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:121:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  121 |   auto [01;35m[Kt1[m[K = ros::Time::now();
+      |        [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:125:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  125 |   int [01;35m[Kvid[m[K = 0;
+      |       [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::localExplore(Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:170:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  170 |     for (int i = 0; [01;35m[Ki < points.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:207:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  207 |     for (int i = 0; [01;35m[Ki < points.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:227:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  227 |     for (int i = 0; [01;35m[Ki < points.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:298:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  298 |   for (int i = 0; [01;35m[Ki < pts.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager_dev.cpp:260:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kctrl_pt_num[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  260 |   int [01;35m[Kctrl_pt_num[m[K = seg_num + 3;
+      |       [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kvoid cmdCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/traj_server.cpp:264:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kyawdot[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  264 |   double yaw, [01;35m[Kyawdot[m[K;
+      |               [01;35m[K^~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::findCollisionRange(std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/plan_manage/src/planner_manager.cpp:675:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kt_e[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  675 |   sn = ceil([01;35m[K(t_mp - t_e)[m[K / dt);
+      |             [01;35m[K~~~~~~^~~~~~[m[K

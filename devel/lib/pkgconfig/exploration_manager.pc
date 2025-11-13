@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/exploration_manager/lib/pkgconfig/exploration_manager.pc

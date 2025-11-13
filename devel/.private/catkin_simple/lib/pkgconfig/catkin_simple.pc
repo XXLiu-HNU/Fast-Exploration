@@ -1,0 +1,8 @@
+prefix=/home/xingxun/experiment/Fast-Exploration/devel/.private/catkin_simple
+
+Name: catkin_simple
+Description: Description of catkin_simple
+Version: 0.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: catkin

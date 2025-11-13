@@ -1,0 +1,7 @@
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/realflight_modules/px4ctrl/src/controller.cpp:[m[K In member function ‘[01m[Kquadrotor_msgs::Px4ctrlDebug LinearControl::calculateControl(const Desired_State_t&, const Odom_Data_t&, const Imu_Data_t&, Controller_Output_t&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/realflight_modules/px4ctrl/src/controller.cpp:35:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   35 |   double roll, pitch, [01;35m[Kyaw[m[K, yaw_imu;
+      |                       [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/realflight_modules/px4ctrl/src/controller.cpp:35:28:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kyaw_imu[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   35 |   double roll, pitch, yaw, [01;35m[Kyaw_imu[m[K;
+      |                            [01;35m[K^~~~~~~[m[K

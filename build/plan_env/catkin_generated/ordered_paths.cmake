@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/xingxun/install/cv_bridge/devel/lib;/opt/ros/noetic/lib")

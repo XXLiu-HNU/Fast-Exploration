@@ -1,0 +1,13 @@
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/./local_setup.fish
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/./setup.zsh
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/./setup.sh
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/./env.sh
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/./setup.bash
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/./local_setup.bash
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/./local_setup.zsh
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/./local_setup.sh
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/./setup.fish
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/./_setup_util.py
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/pkgconfig/catkin_tools_prebuild.pc

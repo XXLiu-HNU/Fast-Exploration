@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11  -O3 -Wall   -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/xingxun/experiment/Fast-Exploration/build/active_perception/gtest/lib ../lib/libgtest.so -lpthread 

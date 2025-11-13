@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/corridor_generator/lib/pkgconfig/corridor_generator.pc

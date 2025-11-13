@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/waypoint_generator/lib/pkgconfig/waypoint_generator.pc

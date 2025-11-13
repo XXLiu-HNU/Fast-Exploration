@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/bspline/share/roseus/ros/bspline/manifest.l

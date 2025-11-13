@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/bspline/share/bspline/cmake/bsplineConfig.cmake

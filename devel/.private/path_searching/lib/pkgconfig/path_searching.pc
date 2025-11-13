@@ -1,0 +1,8 @@
+prefix=/home/xingxun/experiment/Fast-Exploration/devel/.private/path_searching
+
+Name: path_searching
+Description: Description of path_searching
+Version: 0.0.0
+Cflags: -I/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/path_searching/include
+Libs: -L${prefix}/lib -lpath_searching
+Requires: plan_env

@@ -1,0 +1,21 @@
+<launch>
+  <!-- 飞行走廊生成器节点 -->
+  <node pkg="corridor_generator" type="corridor_generator_node" name="corridor_generator" output="screen">
+    <!-- 走廊参数 -->
+    <param name="corridor_radius" value="1.5" type="double"/>
+    
+    <!-- 局部边界框大小 (相对于种子点的半边长) -->
+    <param name="local_bbox_x" value="5.0" type="double"/>
+    <param name="local_bbox_y" value="5.0" type="double"/>
+    <param name="local_bbox_z" value="3.0" type="double"/>
+    
+    <!-- 障碍物搜索半径 -->
+    <param name="obstacle_search_radius" value="15.0" type="double"/>
+    <remap from="/map_ros/cloud" to="/sdf_map/occupancy_all"/>
+  </node>
+
+  <!-- RViz 可视化 -->
+  <!-- <node pkg="rviz" type="rviz" name="corridor_rviz" args="-d $(find corridor_generator)/launch/corridor_generator.rviz" required="false"/> -->
+
+</launch>
+

@@ -1,0 +1,34 @@
+CMake Warning (dev) at CMakeLists.txt:37 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/xingxun/experiment/Fast-Exploration/devel/.private/odom_visualization
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/xingxun/experiment/Fast-Exploration/devel;/home/xingxun/install/cv_bridge/devel;/home/xingxun/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/xingxun/experiment/Fast-Exploration/devel;/home/xingxun/install/cv_bridge/devel;/home/xingxun/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /home/xingxun/miniconda3/bin/python3 (found suitable version "3.9.12", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /home/xingxun/miniconda3/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /home/xingxun/miniconda3/lib/python3.9/site-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/xingxun/experiment/Fast-Exploration/build/odom_visualization/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /home/xingxun/miniconda3/bin/python3 (found version "3.9.12")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.12
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/xingxun/experiment/Fast-Exploration/build/odom_visualization

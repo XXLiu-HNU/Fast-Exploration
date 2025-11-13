@@ -1,0 +1,15 @@
+/usr/bin/cmake -S/home/xingxun/experiment/Fast-Exploration/src/Utils/waypoint_generator -B/home/xingxun/experiment/Fast-Exploration/build/waypoint_generator --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/xingxun/experiment/Fast-Exploration/build/waypoint_generator/CMakeFiles /home/xingxun/experiment/Fast-Exploration/build/waypoint_generator/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/xingxun/experiment/Fast-Exploration/build/waypoint_generator'
+/usr/bin/make -f CMakeFiles/waypoint_generator.dir/build.make CMakeFiles/waypoint_generator.dir/depend
+make[2]: Entering directory '/home/xingxun/experiment/Fast-Exploration/build/waypoint_generator'
+cd /home/xingxun/experiment/Fast-Exploration/build/waypoint_generator && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xingxun/experiment/Fast-Exploration/src/Utils/waypoint_generator /home/xingxun/experiment/Fast-Exploration/src/Utils/waypoint_generator /home/xingxun/experiment/Fast-Exploration/build/waypoint_generator /home/xingxun/experiment/Fast-Exploration/build/waypoint_generator /home/xingxun/experiment/Fast-Exploration/build/waypoint_generator/CMakeFiles/waypoint_generator.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/xingxun/experiment/Fast-Exploration/build/waypoint_generator'
+/usr/bin/make -f CMakeFiles/waypoint_generator.dir/build.make CMakeFiles/waypoint_generator.dir/build
+make[2]: Entering directory '/home/xingxun/experiment/Fast-Exploration/build/waypoint_generator'
+make[2]: Nothing to be done for 'CMakeFiles/waypoint_generator.dir/build'.
+make[2]: Leaving directory '/home/xingxun/experiment/Fast-Exploration/build/waypoint_generator'
+[100%] Built target waypoint_generator
+make[1]: Leaving directory '/home/xingxun/experiment/Fast-Exploration/build/waypoint_generator'
+/usr/bin/cmake -E cmake_progress_start /home/xingxun/experiment/Fast-Exploration/build/waypoint_generator/CMakeFiles 0

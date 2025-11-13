@@ -1,0 +1,6 @@
+[ 25%] [34m[1mGenerating include/selected_points_publisher/moc_selected_points_publisher.cpp[0m
+[35m[1mScanning dependencies of target selected_points_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/xingxun/experiment/Fast-Exploration/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so[0m
+[100%] Built target selected_points_publisher

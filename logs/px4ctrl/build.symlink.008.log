@@ -1,0 +1,5 @@
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/share/px4ctrl/cmake/px4ctrlConfig-version.cmake
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/share/px4ctrl/cmake/px4ctrlConfig.cmake
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/pkgconfig/px4ctrl.pc
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/px4ctrl/px4ctrl_node
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/px4ctrl/thrust_calibrate.py

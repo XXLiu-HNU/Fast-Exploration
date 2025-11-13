@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/quadrotor_msgs/share/gennodejs/ros/quadrotor_msgs/msg/LQRTrajectory.js

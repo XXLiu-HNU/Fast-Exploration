@@ -1,0 +1,146 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Checking for module 'eigen3'
+[36m--[0m   Found eigen3, version 3.3.7
+[36m--[0m Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[36m--[0m Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[36m--[0m Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex
+[36m--[0m Checking for module 'flann'
+[36m--[0m   Found flann, version 1.9.1
+[36m--[0m Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[36m--[0m The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m Checking for module 'libusb-1.0'
+[36m--[0m   Found libusb-1.0, version 1.0.23
+[36m--[0m Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[36m--[0m Found OpenNI: /usr/lib/libOpenNI.so
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m Found OpenNI2: /usr/lib/libOpenNI2.so
+[36m--[0m OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+[36m--[0m Found libusb-1.0: /usr/include
+** WARNING ** io features related to libusb-1.0 will be disabled
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[36m--[0m Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so
+[36m--[0m QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m looking for PCL_COMMON
+[36m--[0m Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[36m--[0m looking for PCL_KDTREE
+[36m--[0m Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[36m--[0m looking for PCL_OCTREE
+[36m--[0m Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[36m--[0m looking for PCL_SEARCH
+[36m--[0m Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[36m--[0m looking for PCL_SAMPLE_CONSENSUS
+[36m--[0m Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[36m--[0m looking for PCL_FILTERS
+[36m--[0m Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[36m--[0m looking for PCL_2D
+[36m--[0m Found PCL_2D: /usr/include/pcl-1.10
+[36m--[0m looking for PCL_GEOMETRY
+[36m--[0m Found PCL_GEOMETRY: /usr/include/pcl-1.10
+[36m--[0m looking for PCL_IO
+[36m--[0m Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[36m--[0m looking for PCL_FEATURES
+[36m--[0m Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[36m--[0m looking for PCL_ML
+[36m--[0m Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[36m--[0m looking for PCL_SEGMENTATION
+[36m--[0m Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[36m--[0m looking for PCL_VISUALIZATION
+[36m--[0m Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[36m--[0m looking for PCL_SURFACE
+[36m--[0m Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[36m--[0m looking for PCL_REGISTRATION
+[36m--[0m Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[36m--[0m looking for PCL_KEYPOINTS
+[36m--[0m Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[36m--[0m looking for PCL_TRACKING
+[36m--[0m Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[36m--[0m looking for PCL_RECOGNITION
+[36m--[0m Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[36m--[0m looking for PCL_STEREO
+[36m--[0m Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[36m--[0m looking for PCL_APPS
+[36m--[0m Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[36m--[0m looking for PCL_IN_HAND_SCANNER
+[36m--[0m Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10
+[36m--[0m looking for PCL_POINT_CLOUD_EDITOR
+[36m--[0m Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10
+[36m--[0m looking for PCL_OUTOFCORE
+[36m--[0m Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[36m--[0m looking for PCL_PEOPLE
+[36m--[0m Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[36m--[0m Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.7")
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/xingxun/experiment/Fast-Exploration/devel/.private/path_searching
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/xingxun/experiment/Fast-Exploration/devel;/home/xingxun/install/cv_bridge/devel;/home/xingxun/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/xingxun/experiment/Fast-Exploration/devel;/home/xingxun/install/cv_bridge/devel;/home/xingxun/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /home/xingxun/miniconda3/bin/python3 (found suitable version "3.9.12", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /home/xingxun/miniconda3/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Found PY_em: /home/xingxun/miniconda3/lib/python3.9/site-packages/em.py
+[36m--[0m Using empy: /home/xingxun/miniconda3/lib/python3.9/site-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/xingxun/experiment/Fast-Exploration/build/path_searching/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /home/xingxun/miniconda3/bin/python3 (found version "3.9.12")
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.12
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/xingxun/experiment/Fast-Exploration/build/path_searching

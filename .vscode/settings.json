@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/hnu/experiment/Fast-Exploration/devel/lib/python3/dist-packages",
+        "/home/hnu/install/vision_openCV/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/hnu/experiment/Fast-Exploration/devel/lib/python3/dist-packages",
+        "/home/hnu/install/vision_openCV/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "ROS2.distro": "noetic"
+}

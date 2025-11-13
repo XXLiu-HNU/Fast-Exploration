@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/bspline/share/gennodejs/ros/bspline/msg/_index.js

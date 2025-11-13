@@ -1,0 +1,8 @@
+prefix=/home/xingxun/experiment/Fast-Exploration/install
+
+Name: uav_utils
+Description: Description of uav_utils
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy

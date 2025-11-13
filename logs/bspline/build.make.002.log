@@ -1,0 +1,18 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[ 22%] Built target bspline
+[ 22%] Built target _bspline_generate_messages_check_deps_Bspline
+[ 66%] Built target bspline_generate_messages_py
+[ 66%] Built target bspline_generate_messages_cpp
+[ 66%] Built target bspline_generate_messages_nodejs
+[ 77%] Built target bspline_generate_messages_lisp
+[100%] Built target bspline_generate_messages_eus
+[100%] Built target bspline_generate_messages

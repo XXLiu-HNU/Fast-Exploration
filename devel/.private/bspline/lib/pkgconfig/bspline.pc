@@ -1,0 +1,8 @@
+prefix=/home/xingxun/experiment/Fast-Exploration/devel/.private/bspline
+
+Name: bspline
+Description: Description of bspline
+Version: 0.0.0
+Cflags: -I/home/xingxun/experiment/Fast-Exploration/devel/.private/bspline/include -I/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/bspline/include
+Libs: -L${prefix}/lib -lbspline
+Requires: message_runtime

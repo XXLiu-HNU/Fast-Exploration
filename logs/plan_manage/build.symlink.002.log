@@ -1,0 +1,8 @@
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/share/plan_manage/cmake/plan_manageConfig.cmake
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/share/plan_manage/cmake/plan_manageConfig-version.cmake
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/libplan_manage.so
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/pkgconfig/plan_manage.pc
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/plan_manage/proc_msg2
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/plan_manage/fast_planner_node
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/plan_manage/proc_msg
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/plan_manage/traj_server

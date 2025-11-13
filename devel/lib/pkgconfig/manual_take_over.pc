@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/manual_take_over/lib/pkgconfig/manual_take_over.pc

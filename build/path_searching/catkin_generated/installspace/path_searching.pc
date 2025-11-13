@@ -1,0 +1,8 @@
+prefix=/home/xingxun/experiment/Fast-Exploration/install
+
+Name: path_searching
+Description: Description of path_searching
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpath_searching
+Requires: plan_env

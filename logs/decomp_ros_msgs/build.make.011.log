@@ -1,0 +1,52 @@
+[35m[1mScanning dependencies of target _decomp_ros_msgs_generate_messages_check_deps_EllipsoidArray[0m
+[35m[1mScanning dependencies of target _decomp_ros_msgs_generate_messages_check_deps_PolyhedronArray[0m
+[35m[1mScanning dependencies of target _decomp_ros_msgs_generate_messages_check_deps_Polyhedron[0m
+[35m[1mScanning dependencies of target _decomp_ros_msgs_generate_messages_check_deps_Ellipsoid[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _decomp_ros_msgs_generate_messages_check_deps_EllipsoidArray
+[  0%] Built target _decomp_ros_msgs_generate_messages_check_deps_Polyhedron
+[  0%] Built target _decomp_ros_msgs_generate_messages_check_deps_PolyhedronArray
+[  0%] Built target _decomp_ros_msgs_generate_messages_check_deps_Ellipsoid
+[35m[1mScanning dependencies of target decomp_ros_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target decomp_ros_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target decomp_ros_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target decomp_ros_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target decomp_ros_msgs_generate_messages_eus[0m
+[  4%] [34m[1mGenerating Lisp code from decomp_ros_msgs/Ellipsoid.msg[0m
+[  9%] [34m[1mGenerating Lisp code from decomp_ros_msgs/EllipsoidArray.msg[0m
+[ 13%] [34m[1mGenerating Lisp code from decomp_ros_msgs/Polyhedron.msg[0m
+[ 18%] [34m[1mGenerating Lisp code from decomp_ros_msgs/PolyhedronArray.msg[0m
+[ 22%] [34m[1mGenerating Python from MSG decomp_ros_msgs/Ellipsoid[0m
+[ 27%] [34m[1mGenerating Javascript code from decomp_ros_msgs/Ellipsoid.msg[0m
+[ 31%] [34m[1mGenerating Python from MSG decomp_ros_msgs/PolyhedronArray[0m
+[ 36%] [34m[1mGenerating Python from MSG decomp_ros_msgs/EllipsoidArray[0m
+[ 40%] [34m[1mGenerating C++ code from decomp_ros_msgs/PolyhedronArray.msg[0m
+[ 45%] [34m[1mGenerating Python from MSG decomp_ros_msgs/Polyhedron[0m
+[ 50%] [34m[1mGenerating C++ code from decomp_ros_msgs/EllipsoidArray.msg[0m
+[ 54%] [34m[1mGenerating C++ code from decomp_ros_msgs/Polyhedron.msg[0m
+[ 59%] [34m[1mGenerating EusLisp code from decomp_ros_msgs/Polyhedron.msg[0m
+[ 63%] [34m[1mGenerating Javascript code from decomp_ros_msgs/Polyhedron.msg[0m
+[ 68%] [34m[1mGenerating Javascript code from decomp_ros_msgs/PolyhedronArray.msg[0m
+[ 72%] [34m[1mGenerating C++ code from decomp_ros_msgs/Ellipsoid.msg[0m
+[ 77%] [34m[1mGenerating Javascript code from decomp_ros_msgs/EllipsoidArray.msg[0m
+[ 81%] [34m[1mGenerating EusLisp manifest code for decomp_ros_msgs[0m
+[ 86%] [34m[1mGenerating EusLisp code from decomp_ros_msgs/PolyhedronArray.msg[0m
+[ 90%] [34m[1mGenerating EusLisp code from decomp_ros_msgs/Ellipsoid.msg[0m
+[ 95%] [34m[1mGenerating EusLisp code from decomp_ros_msgs/EllipsoidArray.msg[0m
+[ 95%] Built target decomp_ros_msgs_generate_messages_lisp
+[ 95%] Built target decomp_ros_msgs_generate_messages_nodejs
+[ 95%] Built target decomp_ros_msgs_generate_messages_cpp
+[100%] [34m[1mGenerating Python msg __init__.py for decomp_ros_msgs[0m
+[100%] Built target decomp_ros_msgs_generate_messages_py
+[100%] Built target decomp_ros_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target decomp_ros_msgs_generate_messages[0m
+[100%] Built target decomp_ros_msgs_generate_messages

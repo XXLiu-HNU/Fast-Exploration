@@ -1,0 +1,19 @@
+<launch>
+    <!-- Include first drone with drone_id 0 -->
+    <include file="$(find px4ctrl)/launch/run_ctrl.launch">
+        <arg name="drone_id" value="0"/>
+        <arg name="namespace" value="iris_0"/>
+    </include>
+
+    <!-- Include second drone with drone_id 1 -->
+    <include file="$(find px4ctrl)/launch/run_ctrl.launch">
+        <arg name="drone_id" value="1"/>
+        <arg name="namespace" value="iris_1"/>
+    </include>
+
+    <!-- Include third drone with drone_id 2 -->
+    <include file="$(find px4ctrl)/launch/run_ctrl.launch">
+        <arg name="drone_id" value="2"/>
+        <arg name="namespace" value="iris_2"/>
+    </include>
+</launch>

@@ -1,0 +1,7 @@
+/home/xingxun/experiment/Fast-Exploration/src/Utils/corridor_generator/src/corridor_generator_node.cpp:19:10: fatal error: decomp_basis/data_type.h: No such file or directory
+   19 | #include <decomp_basis/data_type.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/corridor_generator_node.dir/build.make:63: CMakeFiles/corridor_generator_node.dir/src/corridor_generator_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:259: CMakeFiles/corridor_generator_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

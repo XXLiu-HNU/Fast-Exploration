@@ -1,0 +1,53 @@
+Not searching for unused variables given on the command line.
+CMake Warning (dev) at CMakeLists.txt:2 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/xingxun/experiment/Fast-Exploration/devel/.private/rviz_plugins
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/xingxun/experiment/Fast-Exploration/devel;/home/xingxun/install/cv_bridge/devel;/home/xingxun/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/xingxun/experiment/Fast-Exploration/devel;/home/xingxun/install/cv_bridge/devel;/home/xingxun/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /home/xingxun/miniconda3/bin/python3 (found suitable version "3.9.12", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /home/xingxun/miniconda3/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /home/xingxun/miniconda3/lib/python3.9/site-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/xingxun/experiment/Fast-Exploration/build/rviz_plugins/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /home/xingxun/miniconda3/bin/python3 (found version "3.9.12")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.12
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[33m[1mCMake Warning[0m at /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'system_lib' but neither
+  'system_lib_INCLUDE_DIRS' nor 'system_lib_LIBRARIES' is defined.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:12 (catkin_package)
+
+
+[36m--[0m Using Qt5 based on the rviz_QT_VERSION: 5.12.8
+[36m--[0m Configuring done
+CMake Warning (dev) at CMakeLists.txt:66 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "multi_map_server_generate_messages_cpp" of target
+  "rviz_plugins" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/xingxun/experiment/Fast-Exploration/build/rviz_plugins

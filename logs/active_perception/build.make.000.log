@@ -1,0 +1,112 @@
+[35m[1mScanning dependencies of target active_perception[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/active_perception.dir/src/traj_visibility.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/active_perception.dir/src/heading_planner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/active_perception.dir/src/frontier_finder.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/active_perception.dir/src/graph_node.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/active_perception.dir/src/perception_utils.cpp.o[0m
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/graph_node.cpp:[m[K In static member function ‘[01m[Kstatic double fast_planner::ViewNode::searchPath(const Vector3d&, const Vector3d&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/graph_node.cpp:50:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   50 |   for (int k = 0; [01;35m[Kk < res.size()[m[K; ++k) {
+      |                   [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/traj_visibility.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::VisibilityUtil::findVisibPairs(const std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<fast_planner::VisiblePair>&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/traj_visibility.cpp:127:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  127 |   for (int i = 0; [01;35m[Ki < pts.size() - visible_num_[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/traj_visibility.cpp:132:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  132 |     for (int j = i + visible_num_; [01;35m[Kj < pts.size()[m[K; ++j) {
+      |                                    [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/traj_visibility.cpp:124:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kknow_num[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  124 |   int [01;35m[Kknow_num[m[K = 0;
+      |       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/perception_utils.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::PerceptionUtils::getFOV(std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/perception_utils.cpp:76:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   76 |   for (int i = 0; [01;35m[Ki < cam_vertices1_.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FrontierFinder::expandFrontier(const Vector3i&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:157:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  157 |   if ([01;35m[Kexpanded.size() > cluster_min_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:126:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  126 |   auto [01;35m[Kt1[m[K = ros::Time::now();
+      |        [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FrontierFinder::updateFrontierCostMatrix()[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:273:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  273 |       for (int i = 0; [01;35m[Ki < removed_ids_.size()[m[K; ++i) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FrontierFinder::getViewpointsInfo(const Vector3d&, const std::vector<int>&, const int&, const double&, std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, std::vector<std::vector<double> >&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:466:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  466 |           if ([01;35m[Kpts.size() >= view_num[m[K || view.visib_num_ <= visib_thresh) break;
+      |               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:474:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  474 |             if ([01;35m[Kpts.size() >= view_num[m[K || view.visib_num_ <= visib_thresh) break;
+      |                 [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FrontierFinder::getPathForTour(const Vector3d&, const std::vector<int>&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:521:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  521 |   for (int i = 0; [01;35m[Ki < frontier_ids.size() - 1[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FrontierFinder::findViewpoints(const Vector3d&, const Vector3d&, std::vector<fast_planner::Viewpoint>&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:600:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_angle_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  600 |   double [01;35m[Kleft_angle_[m[K, right_angle_, vertical_angle_, ray_length_;
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FrontierFinder::sampleViewpoints(fast_planner::Frontier&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:678:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  678 |       for (int i = 1; [01;35m[Ki < cells.size()[m[K; ++i) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[KEigen::Vector3i fast_planner::FrontierFinder::searchClearVoxel(const Vector3i&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:800:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kadr[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  800 |       int [01;35m[Kadr[m[K = toadr(nbr);
+      |           [01;35m[K^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/traj_visibility.cpp:[m[K In member function ‘[01m[Kbool fast_planner::VisibilityUtil::findDirAndIdx(fast_planner::NonUniformBspline&, const double&, const double&, Eigen::Vector3d&, int&, Eigen::Vector3d&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/traj_visibility.cpp:232:33:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  232 |   auto vel = traj.getDerivative([01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::HeadingPlanner::searchPathOfYaw(const std::vector<Eigen::Matrix<double, 3, 1> >&, const std::vector<double>&, const double&, const MatrixXd&, std::vector<double>&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:179:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  179 |   for (int i = 0; [01;35m[Ki < yaws.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:182:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  182 |     bool start_end = (i == 0 || [01;35m[Ki == yaws.size() - 1[m[K);
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:181:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  181 |     auto [01;35m[Kt1[m[K = ros::Time::now();
+      |          [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:177:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcur_pos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  177 |   Eigen::Vector3d [01;35m[Kcur_pos[m[K = pts[0];
+      |                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:224:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  224 |   auto [01;35m[Kt1[m[K = ros::Time::now();
+      |        [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:[m[K In member function ‘[01m[Kdouble fast_planner::HeadingPlanner::calcInformationGain(const Vector3d&, const double&, const MatrixXd&, const int&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:239:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  239 |   auto [01;35m[Kt1[m[K = ros::Time::now();
+      |        [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:[m[K In member function ‘[01m[Kdouble fast_planner::HeadingPlanner::calcInfoGain(const Vector3d&, const double&, const int&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:326:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  326 |   auto [01;35m[Kt1[m[K = ros::Time::now();
+      |        [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::HeadingPlanner::calcVisibFrontier(const Vector3d&, const double&, std::unordered_map<int, int>&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:518:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  518 |   auto [01;35m[Kt1[m[K = ros::Time::now();
+      |        [01;35m[K^~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:[m[K In member function ‘[01m[Kbool fast_planner::HeadingPlanner::insideFoV(const Vector4d&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:624:9:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& pc +16)[m[K’ is used uninitialized in this function [[01;35m[K-Wuninitialized[m[K]
+  624 |   if ([01;35m[Kpc(2)[m[K < near_ || pc(2) > far_) {
+      |       [01;35m[K~~^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:628:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpc[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  628 |   double txz = [01;35m[Kpc(0)[m[K / pc(2);
+      |                [01;35m[K~~^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/heading_planner.cpp:633:18:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& pc +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  633 |   double tyz = [01;35m[Kpc(1)[m[K / pc(2);
+      |                [01;35m[K~~^~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FrontierFinder::findViewpoints(const Vector3d&, const Vector3d&, std::vector<fast_planner::Viewpoint>&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:611:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvertical_angle_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  611 |     for (double [01;35m[Kphi_v[m[K = -vertical_angle_; phi_v <= vertical_angle_; phi_v += vertical_angle_ / 3) {
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:614:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kray_length_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  614 |       end[0] = sample[0] + [01;35m[Kray_length_ * cos(phi_v)[m[K * cos(hc + phi_h);
+      |                            [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/active_perception/src/frontier_finder.cpp:636:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kright_angle_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  636 |     double yaw = [01;35m[Khc - M_PI_2 + M_PI / 9.0 * i + right_angle_[m[K;
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/xingxun/experiment/Fast-Exploration/devel/.private/active_perception/lib/libactive_perception.so[0m
+[100%] Built target active_perception

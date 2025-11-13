@@ -1,0 +1,5 @@
+fuel_planner/bspline_opt
+/home/xingxun/experiment/Fast-Exploration/devel/.private/bspline_opt/share/bspline_opt/cmake/bspline_optConfig-version.cmake /home/xingxun/experiment/Fast-Exploration/devel/share/bspline_opt/cmake/bspline_optConfig-version.cmake
+/home/xingxun/experiment/Fast-Exploration/devel/.private/bspline_opt/share/bspline_opt/cmake/bspline_optConfig.cmake /home/xingxun/experiment/Fast-Exploration/devel/share/bspline_opt/cmake/bspline_optConfig.cmake
+/home/xingxun/experiment/Fast-Exploration/devel/.private/bspline_opt/lib/libbspline_opt.so /home/xingxun/experiment/Fast-Exploration/devel/lib/libbspline_opt.so
+/home/xingxun/experiment/Fast-Exploration/devel/.private/bspline_opt/lib/pkgconfig/bspline_opt.pc /home/xingxun/experiment/Fast-Exploration/devel/lib/pkgconfig/bspline_opt.pc

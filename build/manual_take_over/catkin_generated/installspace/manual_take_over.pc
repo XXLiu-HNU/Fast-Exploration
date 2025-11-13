@@ -1,0 +1,8 @@
+prefix=/home/xingxun/experiment/Fast-Exploration/install
+
+Name: manual_take_over
+Description: Description of manual_take_over
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: quadrotor_msgs

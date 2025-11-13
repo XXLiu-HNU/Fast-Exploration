@@ -1,0 +1,50 @@
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::PlanningVisualization::drawLines(const std::vector<Eigen::Matrix<double, 3, 1> >&, const double&, const Vector4d&, const string&, const int&, const int&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:180:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  180 |   for (int i = 0; [01;35m[Ki < list.size() - 1[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::PlanningVisualization::drawBsplinesPhase1(std::vector<fast_planner::NonUniformBspline>&, double)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:314:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<fast_planner::NonUniformBspline>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  314 |   for (int i = 0; [01;35m[Ki < bsplines.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::PlanningVisualization::drawBsplinesPhase2(std::vector<fast_planner::NonUniformBspline>&, double)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:331:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<fast_planner::NonUniformBspline>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  331 |   for (int i = 0; [01;35m[Ki < bsplines.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::PlanningVisualization::drawTopoGraph(std::__cxx11::list<std::shared_ptr<fast_planner::GraphNode> >&, double, double, const Vector4d&, const Vector4d&, const Vector4d&, int)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:391:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<fast_planner::GraphNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  391 |     for (int k = 0; [01;35m[Kk < (*iter)->neighbors_.size()[m[K; ++k) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::PlanningVisualization::drawTopoPathsPhase2(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, double)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:412:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  412 |   for (int i = 0; [01;35m[Ki < paths.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:415:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  415 |     for (int j = 0; [01;35m[Kj < paths[i].size() - 1[m[K; ++j) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::PlanningVisualization::drawTopoPathsPhase1(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, double)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:436:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  436 |   for (int i = 0; [01;35m[Ki < paths.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:439:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  439 |     for (int j = 0; [01;35m[Kj < paths[i].size() - 1[m[K; ++j) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::PlanningVisualization::drawPrediction(fast_planner::ObjPrediction, double, const Vector4d&, int)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:474:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<fast_planner::PolynomialPrediction>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  474 |   for (int i = 0; [01;35m[Ki < pred->size()[m[K; i++) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::PlanningVisualization::drawFrontier(const std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:570:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  570 |   for (int i = 0; [01;35m[Ki < frontiers.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::PlanningVisualization::drawYawPath(fast_planner::NonUniformBspline&, const std::vector<double>&, const double&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:605:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  605 |   for (int i = 0; [01;35m[Ki < yaw.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[KEigen::Vector4d fast_planner::PlanningVisualization::getColor(const double&, double)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/planning_visualization.cpp:623:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klambda[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  623 |   double [01;35m[Klambda[m[K;
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/process_msg.cpp:[m[K In function ‘[01m[Kvoid cloudCallback(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/traj_utils/src/process_msg.cpp:39:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   39 |   for (int i = 0; [01;35m[Ki < pts.points.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K

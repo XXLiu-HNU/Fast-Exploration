@@ -1,0 +1,1 @@
+/home/xingxun/experiment/Fast-Exploration/devel/.private/px4ctrl/lib/px4ctrl/thrust_calibrate.py

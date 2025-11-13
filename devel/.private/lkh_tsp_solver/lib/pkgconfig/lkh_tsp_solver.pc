@@ -1,0 +1,8 @@
+prefix=/home/xingxun/experiment/Fast-Exploration/devel/.private/lkh_tsp_solver
+
+Name: lkh_tsp_solver
+Description: Description of lkh_tsp_solver
+Version: 0.0.0
+Cflags: -I/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/utils/lkh_tsp_solver/include
+Libs: -L${prefix}/lib -llkh_tsp_solver
+Requires: roscpp

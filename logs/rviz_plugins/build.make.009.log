@@ -1,0 +1,7 @@
+[ 20%] [34m[1mGenerating src/moc_goal_tool.cpp[0m
+[35m[1mScanning dependencies of target rviz_plugins[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rviz_plugins.dir/src/moc_goal_tool.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rviz_plugins.dir/src/pose_tool.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/xingxun/experiment/Fast-Exploration/devel/.private/rviz_plugins/lib/librviz_plugins.so[0m
+[100%] Built target rviz_plugins

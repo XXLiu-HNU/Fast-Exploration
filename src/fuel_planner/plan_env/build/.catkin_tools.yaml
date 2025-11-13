@@ -1,0 +1,6 @@
+devel_space: /home/hnu/experiment/Fast-Exploration/src/fuel_planner/plan_env/devel
+install: false
+install_space: /home/hnu/experiment/Fast-Exploration/src/fuel_planner/plan_env/install
+profile: default
+source_space: /home/hnu/experiment/Fast-Exploration/src/fuel_planner/plan_env/src
+workspace: /home/hnu/experiment/Fast-Exploration/src/fuel_planner/plan_env

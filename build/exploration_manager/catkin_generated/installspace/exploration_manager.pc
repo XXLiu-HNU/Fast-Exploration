@@ -1,0 +1,8 @@
+prefix=/home/xingxun/experiment/Fast-Exploration/install
+
+Name: exploration_manager
+Description: Description of exploration_manager
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lexploration_manager
+Requires: plan_env path_searching bspline bspline_opt active_perception traj_utils lkh_tsp_solver plan_manage

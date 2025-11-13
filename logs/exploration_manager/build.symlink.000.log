@@ -1,0 +1,7 @@
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/share/exploration_manager/cmake/exploration_managerConfig-version.cmake
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/share/exploration_manager/cmake/exploration_managerConfig.cmake
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/pkgconfig/exploration_manager.pc
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/exploration_manager/load_obj
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/exploration_manager/exploration_node
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/exploration_manager/write_tsp
+Symlinking /home/xingxun/experiment/Fast-Exploration/devel/lib/exploration_manager/vis.py

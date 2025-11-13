@@ -1,0 +1,8 @@
+prefix=/home/xingxun/experiment/Fast-Exploration/install
+
+Name: decomp_ros_utils
+Description: Description of decomp_ros_utils
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ldecomp_rviz_plugins
+Requires: roscpp rviz decomp_ros_msgs

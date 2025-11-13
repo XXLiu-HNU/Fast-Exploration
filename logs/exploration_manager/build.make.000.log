@@ -1,0 +1,101 @@
+[35m[1mScanning dependencies of target load_obj[0m
+[35m[1mScanning dependencies of target write_tsp[0m
+[35m[1mScanning dependencies of target exploration_node[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/write_tsp.dir/test/write_tsp.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/load_obj.dir/test/load_obj.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/exploration_node.dir/src/exploration_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/exploration_node.dir/src/fast_exploration_manager.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/exploration_node.dir/src/fast_exploration_fsm.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/xingxun/experiment/Fast-Exploration/devel/.private/exploration_manager/lib/exploration_manager/write_tsp[0m
+[ 75%] Built target write_tsp
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/test/load_obj.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/test/load_obj.cpp:25:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   25 |   for (int i = 0; [01;35m[Ki < cloud.points.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastExplorationFSM::visualize()[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:253:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  253 |     for (int i = 0; [01;35m[Ki < ed_ptr->frontiers_.size()[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:242:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kplan_data[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  242 |     auto [01;35m[Kplan_data[m[K = &planner_manager_->plan_data_;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastExplorationFSM::frontierCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:338:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  338 |       for (int i = 0; [01;35m[Ki < ed->frontiers_.size()[m[K; ++i)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:[m[K In member function ‘[01m[Kint fast_planner::FastExplorationManager::planExploreMotion(const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:115:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  115 |   for (int i = 0; [01;35m[Ki < ed_->points_.size()[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/include/exploration_manager/fast_exploration_manager.h:4[m[K,
+                 from [01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:2[m[K:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:121:7:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  121 |       [01;35m[K"Frontier: %d, t: %lf, viewpoint: %d, t: %lf"[m[K, [32m[Ked_->frontiers_.size()[m[K, frontier_time,
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                          [32m[K|[m[K
+      |                                                                          [32m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:121:19:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  121 |       "Frontier: [01;36m[K%d[m[K, t: %lf, viewpoint: %d, t: %lf", ed_->frontiers_.size(), frontier_time,
+      |                  [01;36m[K~^[m[K
+      |                   [01;36m[K|[m[K
+      |                   [01;36m[Kint[m[K
+      |                  [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/include/exploration_manager/fast_exploration_manager.h:4[m[K,
+                 from [01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:2[m[K:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:121:7:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 10 has type ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  121 |       [01;35m[K"Frontier: %d, t: %lf, viewpoint: %d, t: %lf"[m[K, ed_->frontiers_.size(), frontier_time,
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  122 |       [32m[Ked_->points_.size()[m[K, view_time);
+      |       [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[K|[m[K
+      |                        [32m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type {aka long unsigned int}[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:121:42:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  121 |       "Frontier: %d, t: %lf, viewpoint: [01;36m[K%d[m[K, t: %lf", ed_->frontiers_.size(), frontier_time,
+      |                                         [01;36m[K~^[m[K
+      |                                          [01;36m[K|[m[K
+      |                                          [01;36m[Kint[m[K
+      |                                         [32m[K%ld[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:163:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  163 |       for (int i = 0; [01;35m[Ki < ed_->refined_points_.size()[m[K; ++i) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:170:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  170 |       for (int i = 0; [01;35m[Ki < ed_->refined_points_.size()[m[K; ++i) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:205:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  205 |       for (int i = 0; [01;35m[Ki < ed_->n_points_[0].size()[m[K; ++i) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:257:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  257 |     for (int i = 1; [01;35m[Ki < ed_->path_next_goal_.size()[m[K && len2 < radius_far; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastExplorationManager::shortenPath(std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:303:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  303 |   for (int i = 1; [01;35m[Ki < path.size() - 1[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastExplorationManager::refineLocalTour(const Vector3d&, const Vector3d&, const Vector3d&, const std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, const std::vector<std::vector<double> >&, std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<double>&)[m[K’:
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:449:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  449 |   for (int i = 0; [01;35m[Ki < n_points.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:451:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  451 |     for (int j = 0; [01;35m[Kj < n_points[i].size()[m[K; ++j) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:460:13:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  460 |       if ([01;35m[Ki == n_points.size() - 1[m[K) {
+      |           [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:482:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<fast_planner::ViewNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  482 |   for (int i = 1; [01;35m[Ki < path.size()[m[K; ++i) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:433:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcreate_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  433 |   double [01;35m[Kcreate_time[m[K, search_time, parse_time;
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:433:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksearch_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  433 |   double create_time, [01;35m[Ksearch_time[m[K, parse_time;
+      |                       [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:433:36:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kparse_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  433 |   double create_time, search_time, [01;35m[Kparse_time[m[K;
+      |                                    [01;35m[K^~~~~~~~~~[m[K
+[ 87%] [32m[1mLinking CXX executable /home/xingxun/experiment/Fast-Exploration/devel/.private/exploration_manager/lib/exploration_manager/load_obj[0m
+[ 87%] Built target load_obj
+[100%] [32m[1mLinking CXX executable /home/xingxun/experiment/Fast-Exploration/devel/.private/exploration_manager/lib/exploration_manager/exploration_node[0m
+[100%] Built target exploration_node

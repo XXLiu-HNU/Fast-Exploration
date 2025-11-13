@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target assign_goals_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/assign_goals_node.dir/src/assign_goals_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/xingxun/experiment/Fast-Exploration/devel/.private/assign_goals/lib/assign_goals/assign_goals_node[0m
+[100%] Built target assign_goals_node
