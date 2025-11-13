@@ -1,1 +1,0 @@
-/home/xingxun/experiment/Fast-Exploration/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py

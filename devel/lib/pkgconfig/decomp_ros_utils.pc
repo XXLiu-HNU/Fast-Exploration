@@ -1,1 +1,0 @@
-/home/xingxun/experiment/Fast-Exploration/devel/.private/decomp_ros_utils/lib/pkgconfig/decomp_ros_utils.pc

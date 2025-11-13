@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target odom_visualization[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/odom_visualization.dir/src/odom_visualization.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/xingxun/experiment/Fast-Exploration/devel/.private/odom_visualization/lib/odom_visualization/odom_visualization[0m
-[100%] Built target odom_visualization

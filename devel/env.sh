@@ -1,1 +1,0 @@
-/home/xingxun/experiment/Fast-Exploration/devel/.private/catkin_tools_prebuild/env.sh

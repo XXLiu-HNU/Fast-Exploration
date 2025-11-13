@@ -1,6 +1,0 @@
-realflight_modules/px4ctrl
-/home/xingxun/experiment/Fast-Exploration/devel/.private/px4ctrl/share/px4ctrl/cmake/px4ctrlConfig-version.cmake /home/xingxun/experiment/Fast-Exploration/devel/share/px4ctrl/cmake/px4ctrlConfig-version.cmake
-/home/xingxun/experiment/Fast-Exploration/devel/.private/px4ctrl/share/px4ctrl/cmake/px4ctrlConfig.cmake /home/xingxun/experiment/Fast-Exploration/devel/share/px4ctrl/cmake/px4ctrlConfig.cmake
-/home/xingxun/experiment/Fast-Exploration/devel/.private/px4ctrl/lib/pkgconfig/px4ctrl.pc /home/xingxun/experiment/Fast-Exploration/devel/lib/pkgconfig/px4ctrl.pc
-/home/xingxun/experiment/Fast-Exploration/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node /home/xingxun/experiment/Fast-Exploration/devel/lib/px4ctrl/px4ctrl_node
-/home/xingxun/experiment/Fast-Exploration/devel/.private/px4ctrl/lib/px4ctrl/thrust_calibrate.py /home/xingxun/experiment/Fast-Exploration/devel/lib/px4ctrl/thrust_calibrate.py

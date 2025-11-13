@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target manual_take_over[0m
-[35m[1mScanning dependencies of target manual_take_over_station[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/manual_take_over_station.dir/src/ground_station.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable /home/xingxun/experiment/Fast-Exploration/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over[0m
-[ 75%] Built target manual_take_over
-[100%] [32m[1mLinking CXX executable /home/xingxun/experiment/Fast-Exploration/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over_station[0m
-[100%] Built target manual_take_over_station

@@ -1,1 +1,0 @@
-/home/xingxun/experiment/Fast-Exploration/devel/.private/selected_points_publisher/share/selected_points_publisher/cmake/selected_points_publisherConfig-version.cmake

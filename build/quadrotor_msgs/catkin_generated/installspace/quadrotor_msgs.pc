@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/install
-
-Name: quadrotor_msgs
-Description: Description of quadrotor_msgs
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lencode_msgs -ldecode_msgs
-Requires: message_runtime

@@ -1,1 +1,0 @@
-/home/xingxun/experiment/Fast-Exploration/devel/.private/quadrotor_msgs/share/roseus/ros/quadrotor_msgs/msg/OutputData.l

@@ -1,1 +1,0 @@
-/home/xingxun/experiment/Fast-Exploration/devel/.private/decomp_ros_msgs/share/roseus/ros/decomp_ros_msgs/msg/Polyhedron.l

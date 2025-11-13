@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/devel/.private/px4ctrl
-
-Name: px4ctrl
-Description: Description of px4ctrl
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

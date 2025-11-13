@@ -1,1 +1,0 @@
-/home/xingxun/experiment/Fast-Exploration/devel/.private/uav_utils/lib/pkgconfig/uav_utils.pc

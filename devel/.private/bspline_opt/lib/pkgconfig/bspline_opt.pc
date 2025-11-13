@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/devel/.private/bspline_opt
-
-Name: bspline_opt
-Description: Description of bspline_opt
-Version: 0.0.0
-Cflags: -I/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/bspline_opt/include
-Libs: -L${prefix}/lib -lbspline_opt
-Requires: plan_env active_perception

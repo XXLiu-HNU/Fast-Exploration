@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/install
-
-Name: plan_manage
-Description: Description of plan_manage
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lplan_manage
-Requires: plan_env path_searching bspline bspline_opt active_perception traj_utils

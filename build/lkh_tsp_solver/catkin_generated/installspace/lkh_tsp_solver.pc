@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/install
-
-Name: lkh_tsp_solver
-Description: Description of lkh_tsp_solver
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -llkh_tsp_solver
-Requires: roscpp

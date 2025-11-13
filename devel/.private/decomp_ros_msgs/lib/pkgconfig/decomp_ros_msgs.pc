@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/devel/.private/decomp_ros_msgs
-
-Name: decomp_ros_msgs
-Description: Description of decomp_ros_msgs
-Version: 0.0.0
-Cflags: -I/home/xingxun/experiment/Fast-Exploration/devel/.private/decomp_ros_msgs/include
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs message_generation message_runtime

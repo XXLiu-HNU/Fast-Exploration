@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target pose_utils[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /home/xingxun/experiment/Fast-Exploration/devel/.private/pose_utils/lib/libpose_utils.so[0m
-[100%] Built target pose_utils

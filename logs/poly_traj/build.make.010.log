@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target poly_traj[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/poly_traj.dir/src/polynomial_traj.cpp.o[0m
-In file included from [01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/poly_traj/src/polynomial_traj.cpp:2[m[K:
-[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/poly_traj/include/poly_traj/polynomial_traj.h:[m[K In member function ‘[01m[Kdouble fast_planner::PolynomialTraj::getLength()[m[K’:
-[01m[K/home/xingxun/experiment/Fast-Exploration/src/fuel_planner/poly_traj/include/poly_traj/polynomial_traj.h:118:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
-  118 |     for (int i = 1; [01;35m[Ki < sample_points_.size()[m[K; ++i) {
-      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
-[100%] [32m[1mLinking CXX shared library /home/xingxun/experiment/Fast-Exploration/devel/.private/poly_traj/lib/libpoly_traj.so[0m
-[100%] Built target poly_traj

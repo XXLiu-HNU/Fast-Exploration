@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/install
-
-Name: selected_points_publisher
-Description: Description of selected_points_publisher
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

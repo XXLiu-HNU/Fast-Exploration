@@ -1,1 +1,0 @@
-/usr/bin/cmake -S/home/xingxun/experiment/Fast-Exploration/src/Utils/waypoint_generator -B/home/xingxun/experiment/Fast-Exploration/build/waypoint_generator --check-build-system CMakeFiles/Makefile.cmake 0

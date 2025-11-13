@@ -1,1 +1,0 @@
-/home/xingxun/experiment/Fast-Exploration/devel/.private/decomp_ros_msgs/include/decomp_ros_msgs/EllipsoidArray.h

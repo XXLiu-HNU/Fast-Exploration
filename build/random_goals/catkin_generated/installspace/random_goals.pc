@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/install
-
-Name: random_goals
-Description: Description of random_goals
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: traj_utils quadrotor_msgs

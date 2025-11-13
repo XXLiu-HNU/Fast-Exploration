@@ -1,8 +1,0 @@
-# generated from catkin/cmake/template/pkg.context.pc.in
-CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/xingxun/experiment/Fast-Exploration/src/Utils/corridor_generator/include".split(';') if "/home/xingxun/experiment/Fast-Exploration/src/Utils/corridor_generator/include" != "" else []
-PROJECT_CATKIN_DEPENDS = "roscpp;rospy;std_msgs;geometry_msgs;nav_msgs;sensor_msgs;visualization_msgs;decomp_ros_msgs;decomp_ros_utils;tf".replace(';', ' ')
-PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
-PROJECT_NAME = "corridor_generator"
-PROJECT_SPACE_DIR = "/home/xingxun/experiment/Fast-Exploration/devel/.private/corridor_generator"
-PROJECT_VERSION = "0.0.1"

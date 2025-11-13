@@ -1,5 +1,0 @@
-/usr/bin/ld: cannot find -lpose_utils
-collect2: error: ld returned 1 exit status
-make[2]: *** [CMakeFiles/odom_visualization.dir/build.make:110: /home/xingxun/experiment/Fast-Exploration/devel/.private/odom_visualization/lib/odom_visualization/odom_visualization] Error 1
-make[1]: *** [CMakeFiles/Makefile2:200: CMakeFiles/odom_visualization.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/install
-
-Name: traj_utils
-Description: Description of traj_utils
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -ltraj_utils
-Requires: path_searching bspline bspline_opt poly_traj

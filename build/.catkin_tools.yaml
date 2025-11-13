@@ -1,6 +1,0 @@
-devel_space: /home/xingxun/experiment/Fast-Exploration/devel
-install: false
-install_space: /home/xingxun/experiment/Fast-Exploration/install
-profile: default
-source_space: /home/xingxun/experiment/Fast-Exploration/src
-workspace: /home/xingxun/experiment/Fast-Exploration

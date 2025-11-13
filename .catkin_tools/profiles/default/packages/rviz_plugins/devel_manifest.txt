@@ -1,5 +1,0 @@
-Utils/rviz_plugins
-/home/xingxun/experiment/Fast-Exploration/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake /home/xingxun/experiment/Fast-Exploration/devel/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake
-/home/xingxun/experiment/Fast-Exploration/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake /home/xingxun/experiment/Fast-Exploration/devel/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake
-/home/xingxun/experiment/Fast-Exploration/devel/.private/rviz_plugins/lib/librviz_plugins.so /home/xingxun/experiment/Fast-Exploration/devel/lib/librviz_plugins.so
-/home/xingxun/experiment/Fast-Exploration/devel/.private/rviz_plugins/lib/pkgconfig/rviz_plugins.pc /home/xingxun/experiment/Fast-Exploration/devel/lib/pkgconfig/rviz_plugins.pc

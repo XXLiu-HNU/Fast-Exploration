@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/install
-
-Name: corridor_generator
-Description: Description of corridor_generator
-Version: 0.0.1
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy std_msgs geometry_msgs nav_msgs sensor_msgs visualization_msgs decomp_ros_msgs decomp_ros_utils tf

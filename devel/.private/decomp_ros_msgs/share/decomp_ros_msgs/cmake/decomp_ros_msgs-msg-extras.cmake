@@ -1,2 +1,0 @@
-set(decomp_ros_msgs_MESSAGE_FILES "/home/xingxun/experiment/Fast-Exploration/src/Utils/DecompROS/decomp_ros_msgs/msg/Ellipsoid.msg;/home/xingxun/experiment/Fast-Exploration/src/Utils/DecompROS/decomp_ros_msgs/msg/EllipsoidArray.msg;/home/xingxun/experiment/Fast-Exploration/src/Utils/DecompROS/decomp_ros_msgs/msg/Polyhedron.msg;/home/xingxun/experiment/Fast-Exploration/src/Utils/DecompROS/decomp_ros_msgs/msg/PolyhedronArray.msg")
-set(decomp_ros_msgs_SERVICE_FILES "")

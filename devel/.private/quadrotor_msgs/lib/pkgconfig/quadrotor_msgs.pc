@@ -1,8 +1,0 @@
-prefix=/home/xingxun/experiment/Fast-Exploration/devel/.private/quadrotor_msgs
-
-Name: quadrotor_msgs
-Description: Description of quadrotor_msgs
-Version: 0.0.0
-Cflags: -I/home/xingxun/experiment/Fast-Exploration/devel/.private/quadrotor_msgs/include
-Libs: -L${prefix}/lib -lencode_msgs -ldecode_msgs
-Requires: message_runtime

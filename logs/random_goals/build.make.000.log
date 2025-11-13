@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target random_goals_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/random_goals_node.dir/src/random_goals_node.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/xingxun/experiment/Fast-Exploration/devel/.private/random_goals/lib/random_goals/random_goals_node[0m
-[100%] Built target random_goals_node

@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -O3 -Wall -O3 -DNDEBUG  -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/xingxun/experiment/Fast-Exploration/build/lkh_tsp_solver/gtest/lib ../lib/libgtest.so -lpthread 
