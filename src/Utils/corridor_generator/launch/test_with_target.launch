@@ -1,4 +1,20 @@
 <launch>
+  <!-- 测试目标发布节点 -->
+  <node pkg="corridor_generator" type="test_target_publisher" name="test_target_publisher" output="screen">
+    <!-- 发布频率 (Hz) -->
+    <param name="publish_rate" value="1.0" type="double"/>
+    
+    <!-- 目标位置 -->
+    <param name="target_x" value="8.0" type="double"/>
+    <param name="target_y" value="2.5" type="double"/>
+    <param name="target_z" value="1.0" type="double"/>
+    
+    <!-- 目标3D框大小 -->
+    <param name="target_size_x" value="1.0" type="double"/>
+    <param name="target_size_y" value="1.0" type="double"/>
+    <param name="target_size_z" value="2.0" type="double"/>
+  </node>
+
   <!-- 飞行走廊生成器节点 -->
   <node pkg="corridor_generator" type="corridor_generator_node" name="corridor_generator" output="screen">
     <!-- 走廊参数 -->
@@ -18,10 +34,12 @@
     <!-- 目标框膨胀量：处理点云时额外移除目标框周围的点，提供安全裕度 -->
     <param name="target_bbox_padding" value="0.5" type="double"/>
     
+    <!-- 订阅点云话题 -->
     <remap from="/map_ros/cloud" to="/sdf_map/occupancy_all"/>
   </node>
 
-  <!-- RViz 可视化 -->
-  <!-- <node pkg="rviz" type="rviz" name="corridor_rviz" args="-d $(find corridor_generator)/launch/corridor_generator.rviz" required="false"/> -->
+  <!-- RViz 可视化（可选，取消注释以启用） -->
+  <!-- <node pkg="rviz" type="rviz" name="corridor_test_rviz" args="-d $(find corridor_generator)/launch/corridor_generator.rviz" required="false"/> -->
 
 </launch>
+

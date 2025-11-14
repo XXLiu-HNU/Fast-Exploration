@@ -17,6 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   decomp_ros_msgs
   decomp_ros_utils
   tf
+  onboard_detector
 )
 
 find_package(Eigen3 REQUIRED)
@@ -24,7 +25,7 @@ find_package(PCL REQUIRED)
 
 catkin_package(
   INCLUDE_DIRS include
-  CATKIN_DEPENDS roscpp rospy std_msgs geometry_msgs nav_msgs sensor_msgs visualization_msgs decomp_ros_msgs decomp_ros_utils tf
+  CATKIN_DEPENDS roscpp rospy std_msgs geometry_msgs nav_msgs sensor_msgs visualization_msgs decomp_ros_msgs decomp_ros_utils tf onboard_detector
 )
 
 include_directories(
@@ -45,4 +46,15 @@ target_link_libraries(corridor_generator_node
 )
 
 add_dependencies(corridor_generator_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+# Test target publisher node
+add_executable(test_target_publisher
+  src/test_target_publisher.cpp
+)
+
+target_link_libraries(test_target_publisher
+  ${catkin_LIBRARIES}
+)
+
+add_dependencies(test_target_publisher ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 

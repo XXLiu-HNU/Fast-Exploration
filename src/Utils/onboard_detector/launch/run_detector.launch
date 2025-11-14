@@ -1,0 +1,31 @@
+<launch>
+
+	<!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find onboard_detector)/rviz/detector_lv.rviz"/> -->
+
+	<rosparam file="$(find onboard_detector)/cfg/detector_param.yaml" ns="/onboard_detector" />
+	<node pkg="onboard_detector" type="detector_node" name="detector_node" output="screen" />
+    <!-- <node pkg="onboard_detector" type="yolo_detector_node.py" name="yolo_detector_node" output="screen" /> -->
+    <!-- TO run yolo v11: pip install ultralytics -->
+    <node pkg="onboard_detector" type="yolov11_detector_node.py" name="yolov11_detector_node" output="log" />
+	<!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find onboard_detector)/rviz/detector.rviz"/> -->
+	
+	<!-- <node 
+        pkg="rosbag"        
+        type="play"         
+        name="rosbag_player" 
+        args="$(find onboard_detector)/bags/1970-01-01-08-06-02.bag  -l -q"  
+        output="screen"    
+		launch-prefix="bash -c 'sleep 5; $0 $@'"
+    /> -->
+
+	<!-- <node pkg="tf" type="static_transform_publisher" name="odin1_base_link_to_world"
+    args="0 0 0 0 0 0  /map /odom 1000"/>
+
+	<node pkg="tf" type="static_transform_publisher" name="world_to_map"
+    args="0 0 0 0 0 0  /map /world 1000"/> -->
+ 
+<!-- <node pkg="odom_visualization" type="odom_visualization" name="odom_visualization" output="screen">
+    <remap from="~odom" to="/odin1/odometry" />
+</node> -->
+
+</launch>

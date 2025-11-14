@@ -19,6 +19,7 @@
   <depend>decomp_ros_msgs</depend>
   <depend>decomp_ros_utils</depend>
   <depend>tf</depend>
+  <depend>onboard_detector</depend>
 
   <export>
   </export>
