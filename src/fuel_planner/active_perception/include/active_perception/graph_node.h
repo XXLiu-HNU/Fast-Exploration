@@ -9,6 +9,7 @@
 #include <math.h>
 #include <algorithm>
 #include <Eigen/Eigen>
+#include <rog_map/plan_env_adapter.h>
 
 using std::list;
 using std::queue;
@@ -17,10 +18,11 @@ using std::unique_ptr;
 using std::unordered_map;
 using std::vector;
 using std::cout;
+using std::min;
+using std::max;
+using std::make_pair;
 using Eigen::Vector3d;
 using Eigen::Vector3i;
-
-class RayCaster;
 
 namespace fast_planner {
 // Basic noded type containing only general artributes required by graph search

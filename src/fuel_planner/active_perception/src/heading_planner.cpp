@@ -1,6 +1,5 @@
 #include <active_perception/heading_planner.h>
-#include <plan_env/sdf_map.h>
-#include <plan_env/raycast.h>
+#include <rog_map/plan_env_adapter.h>
 
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
@@ -187,7 +186,7 @@ void HeadingPlanner::searchPathOfYaw(const vector<Eigen::Vector3d>& pts, const v
     } else {  // inter vertice
       initCastFlag(pts[i]);
       int vert_num = 2 * half_vert_num_ + 1;
-      vector<future<double>> futs(vert_num);
+      vector<std::future<double>> futs(vert_num);
       for (int j = 0; j < vert_num; ++j) {  // evaluate info gain in parallel
         double ys = yaws[i] + double(j - half_vert_num_) * yaw_diff_;
         futs[j] = std::async(std::launch::async, &HeadingPlanner::calcInformationGain, this, pts[i], ys,
@@ -452,7 +451,7 @@ void HeadingPlanner::visualizeBox(const Eigen::Vector3d& lb, const Eigen::Vector
 void HeadingPlanner::distToPathAndCurPos(const Eigen::Vector3d& check_pt,
                                          const Eigen::MatrixXd& ctrl_pts, pair<double, double>& dists,
                                          bool debug) {
-  double min_squ = numeric_limits<double>::max();
+  double min_squ = std::numeric_limits<double>::max();
   int idx = -1;
   for (int i = 0; i < ctrl_pts.rows(); ++i) {
     Eigen::Vector3d ctrl_pt = ctrl_pts.row(i);

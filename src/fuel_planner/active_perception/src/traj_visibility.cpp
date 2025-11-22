@@ -1,6 +1,5 @@
 #include <active_perception/traj_visibility.h>
-#include <plan_env/raycast.h>
-#include <plan_env/sdf_map.h>
+#include <rog_map/plan_env_adapter.h>
 
 namespace fast_planner {
 VisibilityUtil::VisibilityUtil() {

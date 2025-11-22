@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   geometry_msgs
   quadrotor_msgs
-  plan_env
+  rog_map
   path_searching
   bspline
   bspline_opt
@@ -28,7 +28,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
  INCLUDE_DIRS include
  LIBRARIES exploration_manager
- CATKIN_DEPENDS plan_env path_searching bspline bspline_opt active_perception traj_utils lkh_tsp_solver plan_manage
+ CATKIN_DEPENDS rog_map path_searching bspline bspline_opt active_perception traj_utils lkh_tsp_solver plan_manage
 #  DEPENDS system_lib
 )
 

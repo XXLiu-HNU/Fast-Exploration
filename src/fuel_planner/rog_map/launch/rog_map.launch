@@ -1,0 +1,32 @@
+<launch>
+  <!-- 
+    ROG Map 是一个库，通常被其他节点使用（如 plan_manage 或 exploration_manager）。
+    如果你需要单独使用 ROG Map，需要创建一个节点来实例化它。
+    
+    使用方法：
+    1. 从 YAML 文件加载参数（推荐）
+    2. 在 launch 文件中直接设置参数
+    3. 在代码中通过 NodeHandle 传递参数
+  -->
+  
+  <!-- 方法1: 从 YAML 文件加载参数到 ROS 参数服务器 -->
+  <rosparam file="$(find rog_map)/config/rog_map_config.yaml" command="load" />
+  
+  <!-- 方法2: 直接在 launch 文件中设置参数（会覆盖 YAML 文件中的值） -->
+  <!-- 
+  <param name="rog_map/resolution" value="0.1" />
+  <param name="rog_map/map_size" value="[50.0, 50.0, 5.0]" />
+  <param name="rog_map/ros_callback/enable" value="true" />
+  <param name="rog_map/ros_callback/cloud_topic" value="/cloud_registered" />
+  <param name="rog_map/ros_callback/odom_topic" value="/lidar_slam/odom" />
+  -->
+  
+  <!-- 
+    注意：rog_map 是一个库，不是独立的节点。
+    如果你需要创建独立的节点，可以参考 plan_env_adapter.h 中的用法：
+    
+    ros::NodeHandle nh("~");
+    rog_map::ROGMap::Ptr rog_map = std::make_shared<rog_map::ROGMap>(nh);
+  -->
+</launch>
+

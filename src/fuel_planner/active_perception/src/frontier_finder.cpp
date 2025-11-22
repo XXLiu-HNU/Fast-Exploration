@@ -1,11 +1,9 @@
 #include <active_perception/frontier_finder.h>
-#include <plan_env/sdf_map.h>
-#include <plan_env/raycast.h>
+#include <rog_map/plan_env_adapter.h>
 // #include <path_searching/astar2.h>
 
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
-#include <plan_env/edt_environment.h>
 #include <active_perception/perception_utils.h>
 #include <active_perception/graph_node.h>
 

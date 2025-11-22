@@ -16,7 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   quadrotor_msgs
   poly_traj
-  plan_env
+  rog_map
   path_searching
   bspline
   bspline_opt
@@ -29,7 +29,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
  INCLUDE_DIRS include
  LIBRARIES plan_manage
- CATKIN_DEPENDS plan_env path_searching bspline bspline_opt active_perception traj_utils)
+ CATKIN_DEPENDS rog_map path_searching bspline bspline_opt active_perception traj_utils)
 
 include_directories(
   include
@@ -50,16 +50,23 @@ add_executable(fast_planner_node
   )
 target_link_libraries(fast_planner_node 
   ${catkin_LIBRARIES}
+  ${PCL_LIBRARIES}
   )
 
 add_library(plan_manage 
   src/planner_manager.cpp
   src/planner_manager_dev.cpp
   )
-target_link_libraries(plan_manage ${catkin_LIBRARIES})
+target_link_libraries(plan_manage 
+  ${catkin_LIBRARIES}
+  ${PCL_LIBRARIES}
+  )
 
 add_executable(traj_server src/traj_server.cpp)
-target_link_libraries(traj_server ${catkin_LIBRARIES})
+target_link_libraries(traj_server 
+  ${catkin_LIBRARIES}
+  ${PCL_LIBRARIES}
+  )
 # add_dependencies(traj_server ${${PROJECT_NAME}_EXPORTED_TARGETS})
 
 # benchmark node

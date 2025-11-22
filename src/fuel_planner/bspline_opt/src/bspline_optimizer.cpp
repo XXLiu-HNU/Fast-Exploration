@@ -1,6 +1,5 @@
 #include "bspline_opt/bspline_optimizer.h"
-#include <plan_env/edt_environment.h>
-#include <plan_env/sdf_map.h>
+#include <rog_map/plan_env_adapter.h>
 #include <thread>
 
 #include <nlopt.hpp>

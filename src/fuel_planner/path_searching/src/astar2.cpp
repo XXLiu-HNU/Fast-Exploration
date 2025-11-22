@@ -1,6 +1,6 @@
 #include <path_searching/astar2.h>
 #include <sstream>
-#include <plan_env/sdf_map.h>
+#include <rog_map/plan_env_adapter.h>
 
 using namespace std;
 using namespace Eigen;

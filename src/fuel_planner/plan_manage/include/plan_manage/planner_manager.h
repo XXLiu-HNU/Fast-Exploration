@@ -8,7 +8,7 @@
 #include <path_searching/kinodynamic_astar.h>
 #include <path_searching/topo_prm.h>
 
-#include <plan_env/edt_environment.h>
+#include <rog_map/plan_env_adapter.h>
 
 #include <active_perception/frontier_finder.h>
 #include <active_perception/heading_planner.h>

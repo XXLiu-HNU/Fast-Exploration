@@ -1,12 +1,10 @@
 #ifndef _TRAJ_VISIBILITY_H_
 #define _TRAJ_VISIBILITY_H_
 
-#include <plan_env/edt_environment.h>
+#include <rog_map/plan_env_adapter.h>
 #include <unordered_map>
 #include <utility>
 #include <bspline/non_uniform_bspline.h>
-
-class RayCaster;
 
 namespace fast_planner {
 struct VisiblePair {

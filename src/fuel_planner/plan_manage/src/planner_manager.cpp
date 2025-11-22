@@ -1,7 +1,6 @@
 // #include <fstream>
 #include <plan_manage/planner_manager.h>
-#include <plan_env/sdf_map.h>
-#include <plan_env/raycast.h>
+#include <rog_map/plan_env_adapter.h>
 
 #include <thread>
 #include <pcl/point_cloud.h>

@@ -9,12 +9,16 @@
 #include <utility>
 #include <string>
 #include <unordered_map>
-#include "plan_env/edt_environment.h"
+#include <rog_map/plan_env_adapter.h>
 #include <boost/functional/hash.hpp>
 #include <queue>
+#include <vector>
 #include <path_searching/matrix_hash.h>
 
 namespace fast_planner {
+
+using std::vector;
+using std::shared_ptr;
 // #define REACH_HORIZON 1
 // #define REACH_END 2
 // #define NO_PATH 3

@@ -1,0 +1,24 @@
+[ProbMap]
+	map_size_d: 50.1 50.1  2.1
+	resolution: 0.1
+	map_size_i: 501 501  21
+	local_update_box_size: 50.1 50.1  5.1
+	p_min: 0.12
+	p_max: 0.98
+	p_hit: 0.9
+	p_miss: 0.49
+	p_occ: 0.85
+	p_free: 0.499
+	unk_thresh: 1
+	map_sliding_thresh: 0.3
+	map_sliding_en: 0
+	fix_map_origin: 0 0 0
+	visualization_range: 50 50  6
+	virtual_ceil_height: 9998.8
+	virtual_ground_height: -9998.6
+	batch_update_size: 1
+	frontier_extraction_en: 1
+[InfMap]
+	resolution: 0.2
+	map_size_i: 255 255  15
+	map_size_d: 51 51  3

@@ -5,8 +5,7 @@
 
 #include <exploration_manager/fast_exploration_fsm.h>
 #include <exploration_manager/expl_data.h>
-#include <plan_env/edt_environment.h>
-#include <plan_env/sdf_map.h>
+#include <rog_map/plan_env_adapter.h>
 
 using Eigen::Vector4d;
 

@@ -11,6 +11,43 @@
   <!-- topic of your odometry such as VIO or LIO -->
   <arg name="odom_topic" value="/odin1/odometry_highfreq" />
 
+  <!-- ROG Map 配置 -->
+  <!-- 方式1: 从 YAML 文件加载（推荐，如果存在配置文件） -->
+  <!-- <rosparam file="$(find rog_map)/config/rog_map_config.yaml" command="load" /> -->
+  
+  <!-- 方式2: 直接在 launch 文件中设置 rog_map 参数 -->
+  <!-- 注意：rog_map 使用适配器，通过 plan_env_adapter 的 SDFMap 类初始化 -->
+  <!-- 参数命名空间必须是 rog_map/ -->
+  <param name="rog_map/resolution" value="0.1" />
+  <param name="rog_map/inflation_resolution" value="0.2" />
+  <param name="rog_map/inflation_step" value="1" />
+  <param name="rog_map/map_size" value="[$(arg map_size_x), $(arg map_size_y), $(arg map_size_z)]" />
+  
+  <!-- ROS 回调设置 -->
+  <param name="rog_map/ros_callback/enable" value="true" />
+  <param name="rog_map/ros_callback/cloud_topic" value="/odin1/cloud_raw" />
+  <param name="rog_map/ros_callback/odom_topic" value="$(arg odom_topic)" />
+  <param name="rog_map/ros_callback/odom_timeout" value="2.0" />
+  
+  <!-- 可视化设置 -->
+  <param name="rog_map/visualization/enable" value="true" />
+  <param name="rog_map/visualization/range" value="[50.0, 50.0, 10.0]" />
+  <param name="rog_map/visualization/time_rate" value="10.0" />
+  
+  <!-- 光线投射参数 -->
+  <param name="rog_map/raycasting/enable" value="true" />
+  <param name="rog_map/raycasting/p_hit" value="0.65" />
+  <param name="rog_map/raycasting/p_miss" value="0.35" />
+  <param name="rog_map/raycasting/p_min" value="0.12" />
+  <param name="rog_map/raycasting/p_max" value="0.90" />
+  <param name="rog_map/raycasting/p_occ" value="0.80" />
+  <param name="rog_map/raycasting/ray_range" value="[0.5, 4.5]" />
+  
+  <!-- ESDF 设置 -->
+  <param name="rog_map/esdf/enable" value="true" />
+  <param name="rog_map/esdf/resolution" value="0.1" />
+  <param name="rog_map/esdf/local_update_box" value="[10.0, 10.0, 3.0]" />
+
   <!-- main algorithm params -->
   <include file="$(find exploration_manager)/launch/algorithm.xml">
   <param name="map_ros/corridor_sample_region_x"      value="4.0"/>

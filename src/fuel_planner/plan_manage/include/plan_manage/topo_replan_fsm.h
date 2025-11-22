@@ -13,7 +13,7 @@
 
 #include <bspline_opt/bspline_optimizer.h>
 #include <path_searching/kinodynamic_astar.h>
-#include <plan_env/edt_environment.h>
+#include <rog_map/plan_env_adapter.h>
 #include <plan_env/obj_predictor.h>
 #include <bspline/Bspline.h>
 #include <plan_manage/planner_manager.h>

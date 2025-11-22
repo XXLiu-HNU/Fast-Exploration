@@ -7,9 +7,8 @@
 #include <active_perception/graph_node.h>
 #include <active_perception/graph_search.h>
 #include <active_perception/perception_utils.h>
-#include <plan_env/raycast.h>
-#include <plan_env/sdf_map.h>
-#include <plan_env/edt_environment.h>
+#include <utils/raycaster.h>
+#include <rog_map/plan_env_adapter.h>
 #include <active_perception/frontier_finder.h>
 #include <plan_manage/planner_manager.h>
 

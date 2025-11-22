@@ -7,6 +7,7 @@
 #include <vector>
 #include <list>
 #include <utility>
+#include <rog_map/plan_env_adapter.h>
 
 using Eigen::Vector3d;
 using std::shared_ptr;
@@ -15,10 +16,7 @@ using std::vector;
 using std::list;
 using std::pair;
 
-class RayCaster;
-
 namespace fast_planner {
-class EDTEnvironment;
 class PerceptionUtils;
 
 // Viewpoint to cover a frontier cluster

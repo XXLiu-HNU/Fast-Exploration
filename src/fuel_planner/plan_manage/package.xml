@@ -53,7 +53,7 @@
   <build_depend>std_msgs</build_depend>
   
   <build_depend>poly_traj</build_depend>
-  <build_depend>plan_env</build_depend>
+  <build_depend>rog_map</build_depend>
   <build_depend>path_searching</build_depend>
   <build_depend>bspline</build_depend>
   <build_depend>bspline_opt</build_depend>
@@ -67,7 +67,7 @@
   <exec_depend>std_msgs</exec_depend>
 
   <exec_depend>poly_traj</exec_depend>
-  <exec_depend>plan_env</exec_depend>
+  <exec_depend>rog_map</exec_depend>
   <exec_depend>path_searching</exec_depend>
   <exec_depend>bspline</exec_depend>
   <exec_depend>bspline_opt</exec_depend>

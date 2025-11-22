@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   visualization_msgs
-  plan_env
+  rog_map
   cv_bridge
   message_generation
 )

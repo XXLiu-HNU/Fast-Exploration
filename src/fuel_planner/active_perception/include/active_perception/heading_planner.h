@@ -7,12 +7,15 @@
 #include <list>
 #include <memory>
 #include <mutex>
+#include <future>
+#include <limits>
 
 #include <ros/ros.h>
 
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
 #include <pcl/kdtree/kdtree_flann.h>
+#include <rog_map/plan_env_adapter.h>
 
 using std::list;
 using std::queue;
@@ -20,11 +23,10 @@ using std::shared_ptr;
 using std::unique_ptr;
 using std::unordered_map;
 using std::vector;
-
-class RayCaster;
+using std::future;
+using std::pair;
 
 namespace fast_planner {
-class SDFMap;
 
 // Basic vertex type containing only general artributes required by graph search
 class BaseVertex {

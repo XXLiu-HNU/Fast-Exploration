@@ -1,13 +1,28 @@
 #ifndef _TOPO_PRM_H
 #define _TOPO_PRM_H
 
-#include <plan_env/edt_environment.h>
+#include <rog_map/plan_env_adapter.h>
 
 #include <random>
-
-class RayCaster;
+#include <vector>
+#include <list>
+#include <memory>
+#include <thread>
+#include <algorithm>
+#include <Eigen/Eigen>
 
 namespace fast_planner {
+
+using std::vector;
+using std::list;
+using std::shared_ptr;
+using std::unique_ptr;
+using std::default_random_engine;
+using std::uniform_real_distribution;
+using std::thread;
+using std::max;
+using std::min;
+
 /* ---------- used for iterating all topo combination ---------- */
 class TopoIterator {
 private:

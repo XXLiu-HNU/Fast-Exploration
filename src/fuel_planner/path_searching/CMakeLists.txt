@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   visualization_msgs
-  plan_env
+  rog_map
   cv_bridge
 )
 
@@ -22,7 +22,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
  INCLUDE_DIRS include
  LIBRARIES path_searching
- CATKIN_DEPENDS plan_env
+ CATKIN_DEPENDS rog_map
 #  DEPENDS system_lib
 )
 

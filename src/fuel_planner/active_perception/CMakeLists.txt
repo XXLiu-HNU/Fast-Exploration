@@ -13,7 +13,7 @@ roscpp
 rospy
 std_msgs
 visualization_msgs
-plan_env
+rog_map
 bspline
 path_searching
 cv_bridge
@@ -23,7 +23,7 @@ cv_bridge
 catkin_package(
  INCLUDE_DIRS include
  LIBRARIES active_perception
- CATKIN_DEPENDS plan_env bspline path_searching
+ CATKIN_DEPENDS rog_map bspline path_searching
  DEPENDS system_lib
 )
 

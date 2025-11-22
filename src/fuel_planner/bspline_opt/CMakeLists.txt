@@ -17,7 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   visualization_msgs
-  plan_env
+  rog_map
   active_perception
   cv_bridge
 )
@@ -25,7 +25,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
  INCLUDE_DIRS include
  LIBRARIES bspline_opt
- CATKIN_DEPENDS plan_env active_perception
+ CATKIN_DEPENDS rog_map active_perception
 )
 
 

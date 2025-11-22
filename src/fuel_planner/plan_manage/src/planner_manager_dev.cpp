@@ -1,5 +1,5 @@
 #include <plan_manage/planner_manager.h>
-#include <plan_env/sdf_map.h>
+#include <rog_map/plan_env_adapter.h>
 #include <future>
 #include <pcl_conversions/pcl_conversions.h>
 

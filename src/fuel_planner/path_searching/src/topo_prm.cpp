@@ -1,8 +1,7 @@
 #include <path_searching/topo_prm.h>
 #include <thread>
 #include <random>
-#include <plan_env/sdf_map.h>
-#include <plan_env/raycast.h>
+#include <rog_map/plan_env_adapter.h>
 
 namespace fast_planner {
 TopologyPRM::TopologyPRM(/* args */) {

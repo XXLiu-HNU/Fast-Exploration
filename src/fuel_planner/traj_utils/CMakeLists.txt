@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   bspline_opt
   path_searching
   poly_traj
+  plan_env
   roscpp
   std_msgs
   cv_bridge
@@ -22,7 +23,7 @@ find_package(PCL 1.7 REQUIRED)
 catkin_package(
  INCLUDE_DIRS include
  LIBRARIES traj_utils
- CATKIN_DEPENDS path_searching bspline bspline_opt poly_traj
+ CATKIN_DEPENDS path_searching bspline bspline_opt poly_traj plan_env
 #  DEPENDS system_lib
 )
 
