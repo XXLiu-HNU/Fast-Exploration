@@ -113,11 +113,13 @@
     <param name="frontier/min_visib_num" value="15" type="int"/>;
     <param name="frontier/min_view_finish_fraction" value="0.2" type="double"/>;
 
-    <!-- Perception utils - 360度激光雷达配置 -->
-    <param name="perception_utils/top_angle" value="0.52" type="double"/>  <!-- 垂直FOV，根据激光雷达调整 -->
-    <param name="perception_utils/left_angle" value="3.14159" type="double"/>  <!-- 水平FOV 180度 -->
-    <param name="perception_utils/right_angle" value="3.14159" type="double"/>  <!-- 水平FOV 180度 -->
-    <param name="perception_utils/max_dist" value="10.0" type="double"/>  <!-- 激光雷达最大量程 -->
+    <!-- Perception utils - 激光雷达配置 -->
+    <!-- 重要：不能设置left/right_angle为π，会导致法向量计算错误，前沿检测失败 -->
+    <!-- 保持有限但较大的FOV配置 -->
+    <param name="perception_utils/top_angle" value="0.56125" type="double"/>  <!-- 垂直FOV ~32度 -->
+    <param name="perception_utils/left_angle" value="1.22" type="double"/>  <!-- 水平单侧FOV ~70度 -->
+    <param name="perception_utils/right_angle" value="1.22" type="double"/>  <!-- 水平单侧FOV ~70度 -->
+    <param name="perception_utils/max_dist" value="8.0" type="double"/>  <!-- 激光雷达最大量程 -->
     <param name="perception_utils/vis_dist" value="2.0" type="double"/>  <!-- FOV可视化距离 -->
 
 

@@ -223,6 +223,13 @@ int FastExplorationManager::planExploreMotion(
 
   std::cout << "Next view: " << next_pos.transpose() << ", " << next_yaw << std::endl;
 
+  // For 360-degree LiDAR: set yaw to movement direction instead of viewpoint-based yaw
+  // This avoids unnecessary yaw adjustments since all directions are already observed
+  Vector3d move_dir = next_pos - pos;
+  if (move_dir.norm() > 0.1) {
+    next_yaw = atan2(move_dir(1), move_dir(0));
+  }
+
   // Plan trajectory (position and yaw) to the next viewpoint
   t1 = ros::Time::now();
 
