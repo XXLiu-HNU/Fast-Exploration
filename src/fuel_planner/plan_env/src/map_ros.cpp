@@ -180,11 +180,25 @@ namespace fast_planner
     camera_pos_(2) = pose->pose.position.z;
     camera_q_ = Eigen::Quaterniond(pose->pose.orientation.w, pose->pose.orientation.x,
                                    pose->pose.orientation.y, pose->pose.orientation.z);
+    
     pcl::PointCloud<pcl::PointXYZ> cloud;
     pcl::fromROSMsg(*msg, cloud);
-    int num = cloud.points.size();
-
-    map_->inputPointCloud(cloud, num, camera_pos_);
+    
+    // Transform point cloud from body frame to world frame
+    Eigen::Matrix3d R_wb = camera_q_.toRotationMatrix();
+    pcl::PointCloud<pcl::PointXYZ> cloud_world;
+    cloud_world.points.resize(cloud.points.size());
+    
+    for (size_t i = 0; i < cloud.points.size(); ++i) {
+      Eigen::Vector3d pt_body(cloud.points[i].x, cloud.points[i].y, cloud.points[i].z);
+      Eigen::Vector3d pt_world = R_wb * pt_body + camera_pos_;
+      cloud_world.points[i].x = pt_world(0);
+      cloud_world.points[i].y = pt_world(1);
+      cloud_world.points[i].z = pt_world(2);
+    }
+    
+    int num = cloud_world.points.size();
+    map_->inputPointCloud(cloud_world, num, camera_pos_);
 
     if (local_updated_)
     {
